@@ -1,0 +1,15 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: configuration-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sokkhann/spring-config-git
+          force-pull: true
+          skipSslValidation: true
+          timeout: 10
+  encrypt:
+    key: f8c1e2b3-9a4d-5eb8-8c91-0d7d1f5f9e34
