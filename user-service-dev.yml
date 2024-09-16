@@ -3,3 +3,5 @@ server:
 spring:
   security:
     enabled: false
+  message:
+    greeting: "Hello, this is user server dev welcome" 
